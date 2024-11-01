@@ -1,6 +1,6 @@
-aid: train-travel
+aid: base-train-travel
 name: Train Travel
-type: Template
+type: Base
 description: |-
   This is a template APIs.json for the excellent Train Travel API developed by the folks over at Bump.sh. It is mean to be used as a base template for creating other APIs, establishing a "base" for all of the open source APIs within the commons.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -9,16 +9,16 @@ tags:
 - API
 - Train Travel
 created: '2024-07-07'
-modified: '2024-07-07'
+modified: '2024-08-02'
 url: http://example.com/apis.json
 specificationVersion: '0.18'
 apis:
-- aid: train-travel:train-travel
+- aid: base-train-travel:train-travel
   name: Train Travel
   description: API for finding and booking train trips across Europe, providing a real world example of an API described using OpenAPI which can be used as a base for any other API you are starting.
   image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
   humanURL: https://bump.sh/bump-examples/doc/train-travel-api
-  baseURL: http://api.example.com
+  baseURL: http://apis.example.com
   tags:
   - API
   - Application Programming Interface
@@ -32,18 +32,22 @@ apis:
     url: https://app.getpostman.com/run-collection/9265903-7a75a0d0-b108-4436-ba54-c6139698dc08?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D9265903-7a75a0d0-b108-4436-ba54-c6139698dc08%26entityType%3Dcollection%26workspaceId%3Df507f69d-9564-419c-89a2-cb8e4c8c7b8f    
   - type: RunInInsomnia
     url: https://insomnia.rest/run/?label=Train%20Travel%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fbump-sh-examples%2Ftrain-travel-api%2Fmain%2Finsomnia%2FInsomnia_2024-05-27.json 
+  - type: Authentication
+    url: https://bump.sh/bump-examples/doc/train-travel-api/authentication
+  - type: GettingStarted
+    url: https://bump.sh/bump-examples/doc/train-travel-api/topic/topic-getting-started
+  - type: ChangeLog
+    url: https://bump.sh/bump-examples/doc/train-travel-api/changes
+  - type: Compare
+    url: https://bump.sh/bump-examples/doc/train-travel-api/compare     
   contact:
   - FN: Bump.sh
     email: hello@bump.sh
 common:
-- type: Authentication
-  url: https://bump.sh/bump-examples/doc/train-travel-api/authentication
-- type: GettingStarted
-  url: https://bump.sh/bump-examples/doc/train-travel-api/topic/topic-getting-started
-- type: ChangeLog
-  url: https://bump.sh/bump-examples/doc/train-travel-api/changes
-- type: Compare
-  url: https://bump.sh/bump-examples/doc/train-travel-api/compare 
+- type: Discussion
+  url: https://github.com/orgs/api-commons/discussions/8
+- type: Commons
+  url: http://apicommons.org/base/train-travel/
 maintainers:
 - FN: API Commons
   email: info@apievangelist.com
