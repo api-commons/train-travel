@@ -36,3 +36,10 @@ A machine-readable building block from **[API Commons](https://apicommons.org)**
 - [problem-details-for-http-apis](https://github.com/api-commons/problem-details-for-http-apis) — the RFC 9457/7807 error base this template builds on
 - [change-log](https://github.com/api-commons/change-log) — a machine-readable way to publish an API's changelog
 - [json-api](https://github.com/api-commons/json-api) — JSON:API schemas and governance for standardizing API responses
+
+## License
+
+The artifacts in this repository — the schemas, examples, and API descriptions — are
+licensed **[CC BY-NC-SA 4.0](LICENSE)** (Attribution–NonCommercial–ShareAlike).
+
+API Commons licenses **artifacts** under CC BY-NC-SA 4.0 and **code** under Apache-2.0.
