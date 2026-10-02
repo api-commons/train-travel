@@ -9,7 +9,7 @@ Within [API Commons](http://apicommons.org) this is a `Base` template: an APIs.j
 ## What's in this repo
 
 - [apis.yml](apis.yml) — The APIs.json index for the Train Travel API, typed as a `Base` template. It catalogs the API along with its Documentation, OpenAPI, Postman Collection, Insomnia run, Authentication, Getting Started, Change Log, and Compare properties.
-- [openapi.yml](openapi.yml) — The full OpenAPI 3.1.0 definition for the Train Travel API (finding and booking train trips across Europe).
+- [openapi.yml](openapi.yml) — The full OpenAPI 3.2.0 definition for the Train Travel API (finding and booking train trips across Europe).
 
 ## Using It
 
